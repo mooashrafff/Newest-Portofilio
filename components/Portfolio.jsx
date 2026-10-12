@@ -473,7 +473,7 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div>
             <div className="text-4xl md:text-5xl font-black text-cyan-400 font-mono tracking-tight">
-              <Counter from={0} to={2} decimals={1} suffix="+" />
+              <Counter from={0} to={2} decimals={0} suffix="+" />
             </div>
             <div className="text-xs text-slate-400 uppercase tracking-widest mt-2 font-mono">
               years of experience
@@ -491,7 +491,7 @@ export default function Portfolio() {
 
           <div>
             <div className="text-4xl md:text-5xl font-black text-amber-400 font-mono tracking-tight flex items-center justify-center">
-              <Counter from={10} to={20} decimals={0} suffix="Days" />
+              <Counter from={0} to={7} decimals={0} suffix="14 Days" />
             </div>
             <div className="text-xs text-slate-400 uppercase tracking-widest mt-2 font-mono">
               Fast Delivery Frame
