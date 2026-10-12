@@ -473,10 +473,10 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div>
             <div className="text-4xl md:text-5xl font-black text-cyan-400 font-mono tracking-tight">
-              <Counter from={0.0} to={3.6} decimals={1} />
+              <Counter from={0} to={2.0} decimals={1} />
             </div>
             <div className="text-xs text-slate-400 uppercase tracking-widest mt-2 font-mono">
-              AASTMT BIS GPA
+              2+ years of experience
             </div>
           </div>
 
