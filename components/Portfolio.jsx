@@ -491,7 +491,7 @@ export default function Portfolio() {
 
           <div>
             <div className="text-4xl md:text-5xl font-black text-amber-400 font-mono tracking-tight flex items-center justify-center">
-              <Counter from={0} to={7} decimals={0} suffix="14 Days" />
+              <Counter from1={0} to1={7} from2={7} to2={14} decimals={0} suffix="14 Days" />
             </div>
             <div className="text-xs text-slate-400 uppercase tracking-widest mt-2 font-mono">
               Fast Delivery Frame
